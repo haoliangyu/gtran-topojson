@@ -1,0 +1,31 @@
+{
+  "name": "gtran-topojson",
+  "version": "1.0.0",
+  "description": "convert geojson to topojson",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoliangyu/gtran-topojson.git"
+  },
+  "keywords": [
+    "geojson",
+    "topojson"
+  ],
+  "author": "Haoliang Yu <haholiang.yu@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haoliangyu/gtran-topojson/issues"
+  },
+  "homepage": "https://github.com/haoliangyu/gtran-topojson#readme",
+  "dependencies": {
+    "topojson": "^1.6.19"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "log4js": "^0.6.28",
+    "mocha": "^2.3.4"
+  }
+}
